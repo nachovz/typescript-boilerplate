@@ -13,10 +13,14 @@ module.exports = {
   mode: "development",
   devtool: "source-map",
 
+  resolve: {
+    extensions: [".ts", ".js"],
+  },
+
   module: {
     rules: [
       {
-        test: /\.ts$/,
+        test: /\.tsx?$/,
         loader: "ts-loader",
         exclude: /node_modules/,
       },
