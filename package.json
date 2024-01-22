@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/nachovz/typescript-boilerplate#readme",
   "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "@hotwired/stimulus-webpack-helpers": "^1.0.1",
     "copy-webpack-plugin": "^12.0.1",
     "express": "^4.18.2",
     "ts-loader": "^9.5.1",
@@ -31,5 +33,8 @@
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-middleware": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/webpack-env": "^1.18.4"
   }
 }
